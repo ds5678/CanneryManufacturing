@@ -1,10 +1,16 @@
 ﻿# Cannery Manufacturing
 
-A mod for *The Long Dark* designed to improve the usability of the Last Resort Cannery Workshop in Bleak Inlet, especially on Interloper level gameplay.
+A mod for *The Long Dark* designed to improve the usability of the Last Resort Cannery Workshop in Bleak Inlet, especially on Interloper difficulty.
 
 ## Features
 
-feature list
+1. Improvised Knives and Hatchets can be converted into their manufactured counterparts at the Ammo Workbench.
+2. Arrow Shafts can be crafted more efficiently at the Ammo Workbench.
+3. Gunpowder can be crafted into Flare Shells at the Ammo Workbench.
+4. 3 Flares can be harvested into a Gunpowder Can at any regular Workbench.
+5. Flares can be used to craft Flare Shells at the Ammo Workbench.
+6. The Distress Pistol can be repaired/restored at the Milling Machine.
+7. Crampons can also be repaired/restored at the Milling Machine.
 
 ## Installation
 
@@ -20,4 +26,5 @@ If a player has enough gunpowder to make one flare shell, they can make an infin
 
 1. Mod Settings
 2. Patch for the bug mentioned above
-3. More recipes/repair capabilities?
+3. Eliminate the need for the cannery code sheet
+4. More recipes/repair capabilities?

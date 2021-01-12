@@ -25,6 +25,7 @@ namespace CanneryManufacturing
 			assetBundle = AssetBundle.LoadFromMemory(memoryStream.ToArray());
 
 			Debug.Log($"[{Info.Name}] Version {Info.Version} loaded!");
+			Settings.OnLoad();
 		}
 	}
 }

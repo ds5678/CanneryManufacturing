@@ -342,6 +342,34 @@ namespace CanneryManufacturing
 			}
 		}
 
+		//Change Gunpowder Crafting Location
+		[HarmonyPatch(typeof(Panel_Crafting), "ItemPassesFilter")]
+		private static class RecipesInToolsRecipes
+		{
+			internal static void Postfix(Panel_Crafting __instance, BlueprintItem bpi)
+			{
+				if (bpi?.m_CraftedResult?.name == "GEAR_GunpowderCan")
+				{
+					switch (Settings.options.gunpowderLocationIndex)
+                    {
+						case 0:
+							bpi.m_RequiredCraftingLocation = CraftingLocation.Anywhere;
+							break;
+						case 1:
+							bpi.m_RequiredCraftingLocation = CraftingLocation.Workbench;
+							break;
+						case 2:
+							bpi.m_RequiredCraftingLocation = CraftingLocation.AmmoWorkbench;
+							break;
+						default:
+							Debug.Log("ERROR: Gunpowder mod setting returned an unacceptable value");
+							break;
+                    }
+				}
+			}
+		}
+
+		//Add Blueprint Icons
 		[HarmonyPatch(typeof(BlueprintDisplayItem), "Setup")]
 		private static class FixRecipeIcons
 		{

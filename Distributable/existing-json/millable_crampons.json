@@ -1,0 +1,13 @@
+{
+    "GearName" : "GEAR_Crampons",
+    "ModMillableComponent" : {
+                                "RepairDurationMinutes" : 30,
+                                "RepairRequiredGear" : ["GEAR_ScrapMetal"],
+                                "RepairRequiredGearUnits" : [1],
+                                "CanRestoreFromWornOut" : true,
+                                "RecoveryDurationMinutes" : 210,
+                                "RestoreRequiredGear" : ["GEAR_ScrapMetal"],
+                                "RestoreRequiredGearUnits" : [4],
+                                "Skill" : "None"
+                            }
+}

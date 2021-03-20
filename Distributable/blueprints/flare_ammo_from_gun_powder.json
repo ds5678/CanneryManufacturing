@@ -1,0 +1,18 @@
+{
+    "@type": "ModComponentAPI.ModBlueprint",
+    "RequiredGear": [],
+    "RequiredGearUnits": [],
+    "KeroseneLitersRequired": 0,
+    "GunpowderKGRequired": 0.05,
+    "RequiredTool": "",
+    "OptionalTools": [],
+    "RequiredCraftingLocation": "AmmoWorkbench",
+    "RequiresLitFire": false,
+    "RequiresLight": true,
+    "CraftedResult": "GEAR_FlareGunAmmoSingle",
+    "CraftedResultCount": 1,
+    "DurationMinutes": 15,
+    "CraftingAudio": "Play_CraftingGunPowder",
+    "AppliedSkill" : "None",
+    "ImprovedSkill" : "None"
+}

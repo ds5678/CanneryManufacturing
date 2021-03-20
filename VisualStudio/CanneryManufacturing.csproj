@@ -43,7 +43,7 @@
     <Reference Include="MelonLoader.ModHandler, Version=0.2.7.4, Culture=neutral, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
-    <Reference Include="ModSettings, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="ModSettings, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -77,13 +77,10 @@
     <Compile Include="src\Patches.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="res\cannerymanufacturing" />
+    <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="LICENSE" />
+    <None Include="..\LICENSE" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

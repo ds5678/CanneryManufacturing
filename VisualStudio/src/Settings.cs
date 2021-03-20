@@ -8,6 +8,9 @@ namespace CanneryManufacturing
 		[Description("The default location is at the Ammo Workbench.")]
 		[Choice("Anywhere", "Workbench", "Ammo Workbench")]
 		public int gunpowderLocationIndex = 2;
+
+		[Name("Start Game With Cannery Code Sheet")]
+		public bool startGameWithCanneryCode = false;
 	}
 	internal static class Settings
 	{

@@ -1,0 +1,13 @@
+{
+    "GearName" : "GEAR_FlareGun",
+    "ModMillableComponent" : {
+                                "RepairDurationMinutes" : 30,
+                                "RepairRequiredGear" : ["GEAR_ScrapMetal"],
+                                "RepairRequiredGearUnits" : [1],
+                                "CanRestoreFromWornOut" : true,
+                                "RecoveryDurationMinutes" : 180,
+                                "RestoreRequiredGear" : ["GEAR_ScrapMetal"],
+                                "RestoreRequiredGearUnits" : [3],
+                                "Skill" : "None"
+                            }
+}

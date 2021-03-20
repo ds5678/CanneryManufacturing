@@ -1,0 +1,18 @@
+{
+    "@type": "ModComponentAPI.ModBlueprint",
+    "RequiredGear": ["GEAR_BlueFlare"],
+    "RequiredGearUnits": [1],
+    "KeroseneLitersRequired": 0,
+    "GunpowderKGRequired": 0,
+    "RequiredTool": "GEAR_Knife",
+    "OptionalTools": ["GEAR_KnifeImprovised"],
+    "RequiredCraftingLocation": "AmmoWorkbench",
+    "RequiresLitFire": false,
+    "RequiresLight": true,
+    "CraftedResult": "GEAR_FlareGunAmmoSingle",
+    "CraftedResultCount": 4,
+    "DurationMinutes": 150,
+    "CraftingAudio": "Play_CraftingGunPowder",
+    "AppliedSkill" : "None",
+    "ImprovedSkill" : "None"
+}

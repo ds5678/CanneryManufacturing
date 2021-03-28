@@ -17,10 +17,10 @@ A mod for *The Long Dark* designed to improve the usability of the Last Resort C
 
 1. If you haven't done so already, install MelonLoader by downloading and running [MelonLoader.Installer.exe](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe).
 2. Download the latest version of `CanneryManufacturing.dll` and `CanneryManufacturing.zip` from the [releases page](https://github.com/ds5678/CanneryManufacturing/releases).
-3. Download the latest version of `ModComponentAPI.dll` and `ModComponentMapper.dll` from the [releases page](https://github.com/ds5678/ModComponent/releases).
+3. Download the latest version of `ModComponent.dll` from the [releases page](https://github.com/ds5678/ModComponent/releases).
 4. Download the latest version of `AssetLoader.dll` from the [releases page](https://github.com/ds5678/AssetLoader/releases).
 5. Download the latest version of `ModSettings.dll` from its [release page](https://github.com/zeobviouslyfakeacc/ModSettings/releases).
-6. Move `AssetLoader.dll`, `ModComponentAPI.dll`, `ModComponentMapper.dll`, and `ModSettings.dll` into the Mods folder in your TLD install directory.
+6. Move `AssetLoader.dll`, `ModComponent.dll`, and `ModSettings.dll` into the Mods folder in your TLD install directory.
 7. Run the game once. ModComponent may create some directories in your mods folder.
 8. Move `CanneryManufacturing.dll` into your mods folder
 9. Move `CanneryManufacturing.zip` into the `ModComponentZips` folder. Do not extract it!

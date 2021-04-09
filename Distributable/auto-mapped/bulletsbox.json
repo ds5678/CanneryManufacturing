@@ -1,0 +1,37 @@
+{
+    "ModGenericComponent": {
+                                "DisplayNameLocalizationId" : "GAMEPLAY_BulletsBox",
+                                "DescriptionLocalizatonId" : "GAMEPLAY_BulletsBoxDescription",
+                                "InventoryActionLocalizationId" : "",
+                                "WeightKG": 0.3,
+                                "DaysToDecay" : 0,
+                                "MaxHP" : 100,
+                                "InitialCondition" : "Perfect",
+                                "InventoryCategory" : "Material",
+                                "PickUpAudio" : "Play_SndInvAmmoCardboardBox",
+                                "PutBackAudio" : "Play_SndInvAmmoCardboardBox",
+                                "StowAudio" : "Play_InventoryStow",
+                                "WornOutAudio" : "",
+                                "InspectOnPickup" : true,
+                                "InspectDistance" : 0.4,
+                                "InspectAngles" : [-45, 0, 0],
+                                "InspectOffset" : [0, 0, 0],
+                                "InspectScale" :  [1, 1, 1],
+                                "NormalModel" : "",
+                                "InspectModel" : ""
+                            },
+    "ModStackableComponent": {
+                                "SingleUnitTextId" : "",
+                                "MultipleUnitTextId" : "",
+                                "StackSprite" : "",
+                                "UnitsPerItem" : 1,
+                                "ChanceFull" : 100
+                             },
+    "ModHarvestableComponent": {
+                                "Audio" : "",
+                                "Minutes" : 2,
+                                "YieldCounts" : [50],
+                                "YieldNames" : ["GEAR_Bullet"],
+                                "RequiredToolNames" : []
+                            }
+}

@@ -1,18 +1,45 @@
 ManifestFileVersion: 0
-CRC: 964378790
+CRC: 3273840268
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 83821fb8a713a38c06534b8af1f89733
+    Hash: 2f09fe6fbd94d2a34e747afc4b1a3e76
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2ed26e3ad9f6be9c24f85f5f5b54339d
+    Hash: ab907939c6863232414dc5a54ed0b744
 HashAppended: 0
 ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
 Assets:
+- Assets/Prefabs/GEAR_RevolverReloadingBox.prefab
+- Assets/Prefabs/GEAR_RifleReloadingBox.prefab
+- Assets/InventoryGridIcons/ico_GearItem__RevolverReloadingBox.png
 - Assets/CraftingIcons/ico_CraftItem__Knife.png
+- Assets/InventoryGridIcons/ico_GearItem__BulletsBox.png
+- Assets/InventoryGridIcons/ico_GearItem__SmallGunpowderCan.png
+- Assets/InventoryGridIcons/ico_GearItem__RifleReloadingBox.png
+- Assets/Prefabs/GEAR_SmallGunpowderCan.prefab
+- Assets/Localization.json
+- Assets/Prefabs/GEAR_BulletsBox.prefab
 - Assets/CraftingIcons/ico_CraftItem__FlareGunAmmoSingle.png
 - Assets/CraftingIcons/ico_CraftItem__Hatchet.png
 Dependencies: []

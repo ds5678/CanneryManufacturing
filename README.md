@@ -12,25 +12,32 @@ A mod for *The Long Dark* designed to improve the usability of the Last Resort C
 6. Flares can be used to craft Flare Shells at the Ammo Workbench.
 7. The Distress Pistol can be repaired/restored at the Milling Machine.
 8. Crampons can also be repaired/restored at the Milling Machine.
+9. A setting to remove the need for the Cannery Code Sheet
+10. Settings to make firearms start in a ruined state
+11. Firearm Reloading Supplies scattered throughout the world.
+
+## [Patreon](https://www.patreon.com/ds5678)
+
+I know many people might skip over this, but I hope you don't. You are so special, and I would appreciate your support. Modding takes lots of time, and I have expenses like food, internet, and rent. If you feel that I have improved your playing experience, please consider supporting me on my [Patreon](https://www.patreon.com/ds5678). Your support helps to ensure that I can continue making mods for you at the pace I am :)
 
 ## Installation
 
 1. If you haven't done so already, install MelonLoader by downloading and running [MelonLoader.Installer.exe](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe).
-2. Download the latest version of `CanneryManufacturing.dll` and `CanneryManufacturing.zip` from the [releases page](https://github.com/ds5678/CanneryManufacturing/releases).
+2. Download the latest version of `CanneryManufacturing.dll` and `CanneryManufacturing.modcomponent` from the [releases page](https://github.com/ds5678/CanneryManufacturing/releases).
 3. Download the latest version of `ModComponent.dll` from the [releases page](https://github.com/ds5678/ModComponent/releases).
 4. Download the latest version of `AssetLoader.dll` from the [releases page](https://github.com/ds5678/AssetLoader/releases).
 5. Download the latest version of `ModSettings.dll` from its [release page](https://github.com/zeobviouslyfakeacc/ModSettings/releases).
 6. Move `AssetLoader.dll`, `ModComponent.dll`, and `ModSettings.dll` into the Mods folder in your TLD install directory.
 7. Run the game once. ModComponent may create some directories in your mods folder.
 8. Move `CanneryManufacturing.dll` into your mods folder
-9. Move `CanneryManufacturing.zip` into the `ModComponentZips` folder. Do not extract it!
+9. Move `CanneryManufacturing.modcomponent` into the `ModComponentZips` folder.
 
 ## Known Issues
 
 If a player has enough gunpowder to make one flare shell, they can make an infinite amount. This bug does not originate from the mod, but instead from the base game. In the base game, if a player has enough gunpowder for one rifle/revolver cartridge, then they are only limited by their shell casings and bullets.
 
-## Version 1.20 changelist
+## Version 1.3 changelist
 
-1. Smaller crafting icons to match the existing ones
-2. Moved to using ModComponent
-3. Added option to remove the need for the cannery code note
+1. Moved to using the `.modcomponent` file extension
+2. Added options for Firearms to start in a ruined state
+3. Added 4 new items for ammunition crafting

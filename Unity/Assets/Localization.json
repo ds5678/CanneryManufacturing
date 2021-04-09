@@ -1,11 +1,26 @@
 ﻿{
-    "GAMEPLAY_SampleItem" : {
-                            "English" : "Sample Item",
-                            "German" : "Beispielartikel",
-                            "Russian" : "Образец товара"
+    "GAMEPLAY_BulletsBox" : {
+                            "English" : "Box of Bullets"
     },
-    "GAMEPLAY_SampleItemDescription" : {
-                            "English" : "A sample item description",
-                            "German" : "Eine Beispielartikelbeschreibung"
+    "GAMEPLAY_BulletsBoxDescription" : {
+                            "English" : "A box of 50 bullets for reloading ammunition."
+    },
+    "GAMEPLAY_RevolverReloadingBox" : {
+                            "English" : "Revolver Reloading Box"
+    },
+    "GAMEPLAY_RevolverReloadingBoxDescription" : {
+                            "English" : "A box of 40 bullets and shell casings for reloading revolver ammunition."
+    },
+    "GAMEPLAY_RifleReloadingBox" : {
+                            "English" : "Rifle Reloading Box"
+    },
+    "GAMEPLAY_RifleReloadingBoxDescription" : {
+                            "English" : "A box of 15 bullets and shell casings for reloading rifle ammunition."
+    },
+    "GAMEPLAY_SmallGunpowderCan" : {
+                            "English" : "Small Can of Gunpowder"
+    },
+    "GAMEPLAY_SmallGunpowderCanDescription" : {
+                            "English" : "A small can for carrying gunpowder."
     }
 }

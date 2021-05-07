@@ -59,9 +59,9 @@ namespace CanneryManufacturing
                 }
 
                 if (__instance.m_BeenInspected) return;
-                if (Settings.options.flareGunsStartRuined && __instance.name == "GEAR_FlareGun(Clone)") __instance.ForceWornOut();
-                else if (Settings.options.revolversStartRuined && __instance.name == "GEAR_Revolver(Clone)") __instance.ForceWornOut();
-                else if (Settings.options.riflesStartRuined && __instance.name == "GEAR_Rifle(Clone)") __instance.ForceWornOut();
+                if (Settings.options.flareGunsStartRuined && ModComponentMapper.NameUtils.NormalizeName(__instance.name) == "GEAR_FlareGun") __instance.ForceWornOut();
+                else if (Settings.options.revolversStartRuined && ModComponentMapper.NameUtils.NormalizeName(__instance.name) == "GEAR_Revolver") __instance.ForceWornOut();
+                else if (Settings.options.riflesStartRuined && ModComponentMapper.NameUtils.NormalizeName(__instance.name) == "GEAR_Rifle") __instance.ForceWornOut();
             }
             private static GearItem GetGearItemPrefab(string name) => Resources.Load(name).Cast<GameObject>().GetComponent<GearItem>();
         }

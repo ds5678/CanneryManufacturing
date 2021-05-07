@@ -44,19 +44,12 @@ If you send me your translations, I'll update and add them to the mod so that mo
 1. If you haven't done so already, install MelonLoader by downloading and running [MelonLoader.Installer.exe](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe).
 2. Download the latest version of `CanneryManufacturing.dll` and `CanneryManufacturing.modcomponent` from the [releases page](https://github.com/ds5678/CanneryManufacturing/releases).
 3. Download the latest version of `ModComponent.dll` from the [releases page](https://github.com/ds5678/ModComponent/releases).
-4. Download the latest version of `AssetLoader.dll` from the [releases page](https://github.com/ds5678/AssetLoader/releases).
-5. Download the latest version of `ModSettings.dll` from its [release page](https://github.com/zeobviouslyfakeacc/ModSettings/releases).
-6. Move `AssetLoader.dll`, `ModComponent.dll`, and `ModSettings.dll` into the Mods folder in your TLD install directory.
-7. Run the game once. ModComponent may create some directories in your mods folder.
-8. Move `CanneryManufacturing.dll` into your mods folder
-9. Move `CanneryManufacturing.modcomponent` into the `ModComponentZips` folder.
+4. Download the latest version of `ModSettings.dll` from its [release page](https://github.com/zeobviouslyfakeacc/ModSettings/releases).
+5. Move `AssetLoader.dll`, `ModComponent.dll`, and `ModSettings.dll` into the Mods folder in your TLD install directory.
+6. Run the game once. ModComponent may create some directories in your mods folder.
+7. Move `CanneryManufacturing.dll` into your mods folder
+8. Move `CanneryManufacturing.modcomponent` into the `ModComponentZips` folder.
 
 ## Known Issues
 
 If a player has enough gunpowder to make one flare shell, they can make an infinite amount. This bug does not originate from the mod, but instead from the base game. In the base game, if a player has enough gunpowder for one rifle/revolver cartridge, then they are only limited by their shell casings and bullets.
-
-## Version 1.3 changelist
-
-1. Moved to using the `.modcomponent` file extension
-2. Added options for Firearms to start in a ruined state
-3. Added 4 new items for ammunition crafting

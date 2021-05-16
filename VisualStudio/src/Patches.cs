@@ -1,4 +1,5 @@
 ﻿using Harmony;
+using ModComponentUtils;
 using UnityEngine;
 
 namespace CanneryManufacturing
@@ -44,9 +45,9 @@ namespace CanneryManufacturing
         {
             internal static void Postfix(GearItem __instance)
             {
-                if (__instance.name == "GEAR_Crampons(Clone)")
+                if (__instance?.name == "GEAR_Crampons(Clone)")
                 {
-                    __instance.m_Millable = __instance.gameObject.AddComponent<Millable>();
+                    __instance.m_Millable = __instance.gameObject?.AddComponent<Millable>();
 
                     __instance.m_Millable.m_CanRestoreFromWornOut = true;
                     __instance.m_Millable.m_RecoveryDurationMinutes = 210;
@@ -59,9 +60,9 @@ namespace CanneryManufacturing
                 }
 
                 if (__instance.m_BeenInspected) return;
-                if (Settings.options.flareGunsStartRuined && ModComponentMapper.NameUtils.NormalizeName(__instance.name) == "GEAR_FlareGun") __instance.ForceWornOut();
-                else if (Settings.options.revolversStartRuined && ModComponentMapper.NameUtils.NormalizeName(__instance.name) == "GEAR_Revolver") __instance.ForceWornOut();
-                else if (Settings.options.riflesStartRuined && ModComponentMapper.NameUtils.NormalizeName(__instance.name) == "GEAR_Rifle") __instance.ForceWornOut();
+                if (Settings.options.flareGunsStartRuined && NameUtils.NormalizeName(__instance.name) == "GEAR_FlareGun") __instance.ForceWornOut();
+                else if (Settings.options.revolversStartRuined && NameUtils.NormalizeName(__instance.name) == "GEAR_Revolver") __instance.ForceWornOut();
+                else if (Settings.options.riflesStartRuined && NameUtils.NormalizeName(__instance.name) == "GEAR_Rifle") __instance.ForceWornOut();
             }
             private static GearItem GetGearItemPrefab(string name) => Resources.Load(name).Cast<GameObject>().GetComponent<GearItem>();
         }

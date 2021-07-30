@@ -21,7 +21,7 @@
                             "English" : "A box of 40 bullets and shell casings for reloading revolver ammunition.",
                             "Polish": "Pudełko z 40 łuskami i nabojami do przeładowywania amunicji rewolwerowej",
                             "French (France)" : "Une boîte de 40 balles et douilles pour le rechargement des munitions de revolver.",
-                            "Italian" : "Una scatola di 40 proiettili e bussolotti per ricaricare le munizioni di un revolver."
+                            "Italian" : "Una scatola di 40 proiettili e bossoli per ricaricare le munizioni di un revolver."
     },
     "GAMEPLAY_RifleReloadingBox" : {
                             "English" : "Rifle Reloading Box",
@@ -33,7 +33,7 @@
                             "English" : "A box of 15 bullets and shell casings for reloading rifle ammunition.",
                             "Polish": "Pudełko z 15 łuskami i nabojami do przeładowywania amunicji do karabinu",
                             "French (France)" : "Une boîte de 15 balles et douilles pour le rechargement des munitions de fusil.",
-                            "Italian" : "Una scatola di 15 proiettili e bussolotti per ricaricare le munizioni di un fucile."
+                            "Italian" : "Una scatola di 15 proiettili e bossoli per ricaricare le munizioni di un fucile."
     },
     "GAMEPLAY_SmallGunpowderCan" : {
                             "English" : "Small Can of Gunpowder",

@@ -2,41 +2,49 @@
     "GAMEPLAY_BulletsBox" : {
                             "English" : "Box of Bullets",
                             "Polish": "Pudełko na naboje",
-                            "French (France)" : "Boite de balles"
+                            "French (France)" : "Boite de balles",
+                            "Italian" : "Scatola di proiettili"
     },
     "GAMEPLAY_BulletsBoxDescription" : {
                             "English" : "A box of 50 bullets for reloading ammunition.",
                             "Polish": "Pudełko z 50 łuskami do napełniania amunicji",
-                            "French (France)" : "Une boîte de 50 balles pour le rechargement des munitions."
+                            "French (France)" : "Une boîte de 50 balles pour le rechargement des munitions.",
+                            "Italian" : "Una scatola di 50 proiettili per ricaricare le munizioni."
     },
     "GAMEPLAY_RevolverReloadingBox" : {
                             "English" : "Revolver Reloading Box",
                             "Polish": "Pudełko łusek rewolwerowych",
-                            "French (France)" : "Boîte de rechargement pour revolver"
+                            "French (France)" : "Boîte de rechargement pour revolver",
+                            "Italian" : "Scatola di ricarica per revolver"
     },
     "GAMEPLAY_RevolverReloadingBoxDescription" : {
                             "English" : "A box of 40 bullets and shell casings for reloading revolver ammunition.",
                             "Polish": "Pudełko z 40 łuskami i nabojami do przeładowywania amunicji rewolwerowej",
-                            "French (France)" : "Une boîte de 40 balles et douilles pour le rechargement des munitions de revolver."
+                            "French (France)" : "Une boîte de 40 balles et douilles pour le rechargement des munitions de revolver.",
+                            "Italian" : "Una scatola di 40 proiettili e bussolotti per ricaricare le munizioni di un revolver."
     },
     "GAMEPLAY_RifleReloadingBox" : {
                             "English" : "Rifle Reloading Box",
                             "Polish": "Pudełko łusek do karabinu",
-                            "French (France)" : "Boîte de rechargement pour fusil"
+                            "French (France)" : "Boîte de rechargement pour fusil",
+                            "Italian" : "Scatola di ricarica per fucile"
     },
     "GAMEPLAY_RifleReloadingBoxDescription" : {
                             "English" : "A box of 15 bullets and shell casings for reloading rifle ammunition.",
                             "Polish": "Pudełko z 15 łuskami i nabojami do przeładowywania amunicji do karabinu",
-                            "French (France)" : "Une boîte de 15 balles et douilles pour le rechargement des munitions de fusil."
+                            "French (France)" : "Une boîte de 15 balles et douilles pour le rechargement des munitions de fusil.",
+                            "Italian" : "Una scatola di 15 proiettili e bussolotti per ricaricare le munizioni di un fucile."
     },
     "GAMEPLAY_SmallGunpowderCan" : {
                             "English" : "Small Can of Gunpowder",
                             "Polish": "Mała puszka prochu strzelniczego",
-                            "French (France)" : "Petite boîte de poudre à canon"
+                            "French (France)" : "Petite boîte de poudre à canon",
+                            "Italian" : "Latta di polvere da sparo"
     },
     "GAMEPLAY_SmallGunpowderCanDescription" : {
                             "English" : "A small can for carrying gunpowder.",
                             "Polish": "Mała puszka do transportu prochu strzelniczego",
-                            "French (France)" : "Une petite boite pour transporter de la poudre à canon."
+                            "French (France)" : "Une petite boite pour transporter de la poudre à canon.",
+                            "Italian" : "Una piccola lattina per trasportare la polvere da sparo."
     }
 }

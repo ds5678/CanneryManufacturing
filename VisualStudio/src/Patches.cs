@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using ModComponentUtils;
 using UnityEngine;
 
@@ -26,7 +26,7 @@ namespace CanneryManufacturing
 							bpi.m_RequiredCraftingLocation = CraftingLocation.AmmoWorkbench;
 							break;
 						default:
-							MelonLoader.MelonLogger.LogError("Gunpowder setting returned an unacceptable value");
+							MelonLoader.MelonLogger.Error("Gunpowder setting returned an unacceptable value");
 							break;
 					}
 				}

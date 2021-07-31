@@ -1,5 +1,0 @@
-sceneSetups:
-- path: C:/Users/owner/source/repos/Woodenstatuettes/Unity/Assets/scene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0

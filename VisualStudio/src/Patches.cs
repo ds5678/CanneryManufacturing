@@ -1,5 +1,5 @@
 ﻿using HarmonyLib;
-using ModComponentUtils;
+using ModComponent.Utils;
 using UnityEngine;
 
 namespace CanneryManufacturing
@@ -52,6 +52,19 @@ namespace CanneryManufacturing
 					__instance.m_Millable.m_RepairRequiredGearUnits = new int[] { 1 };
 					__instance.m_Millable.m_RestoreRequiredGear = new GearItem[] { GetGearItemPrefab(SCRAP_METAL_NAME) };
 					__instance.m_Millable.m_RestoreRequiredGearUnits = new int[] { 4 };
+					__instance.m_Millable.m_Skill = SkillType.None;
+				}
+				if (NameUtils.NormalizeName(__instance?.name) == "GEAR_Flaregun")
+				{
+					__instance.m_Millable = ComponentUtils.GetOrCreateComponent<Millable>(__instance.gameObject);
+
+					__instance.m_Millable.m_CanRestoreFromWornOut = true;
+					__instance.m_Millable.m_RecoveryDurationMinutes = 180;
+					__instance.m_Millable.m_RepairDurationMinutes = 30;
+					__instance.m_Millable.m_RepairRequiredGear = new GearItem[] { GetGearItemPrefab(SCRAP_METAL_NAME) };
+					__instance.m_Millable.m_RepairRequiredGearUnits = new int[] { 1 };
+					__instance.m_Millable.m_RestoreRequiredGear = new GearItem[] { GetGearItemPrefab(SCRAP_METAL_NAME) };
+					__instance.m_Millable.m_RestoreRequiredGearUnits = new int[] { 3 };
 					__instance.m_Millable.m_Skill = SkillType.None;
 				}
 

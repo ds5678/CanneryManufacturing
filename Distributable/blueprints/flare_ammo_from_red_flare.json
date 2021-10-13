@@ -1,5 +1,5 @@
 {
-    "@type": "ModComponentAPI.ModBlueprint",
+    "Name": "FlareAmmoFromRedFlare",
     "RequiredGear": ["GEAR_FlareA"],
     "RequiredGearUnits": [1],
     "KeroseneLitersRequired": 0,

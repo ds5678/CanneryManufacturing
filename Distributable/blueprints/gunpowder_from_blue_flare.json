@@ -1,5 +1,5 @@
 {
-    "@type": "ModComponentAPI.ModBlueprint",
+    "Name": "GunpowderFromBlueFlare",
     "RequiredGear": ["GEAR_BlueFlare"],
     "RequiredGearUnits": [3],
     "KeroseneLitersRequired": 0,

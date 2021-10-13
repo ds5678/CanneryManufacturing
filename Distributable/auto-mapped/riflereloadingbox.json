@@ -20,14 +20,14 @@
                                 "NormalModel" : "",
                                 "InspectModel" : ""
                             },
-    "ModStackableComponent": {
+    "ModStackableBehaviour": {
                                 "SingleUnitTextId" : "",
                                 "MultipleUnitTextId" : "",
                                 "StackSprite" : "",
                                 "UnitsPerItem" : 1,
                                 "ChanceFull" : 100
                              },
-    "ModHarvestableComponent": {
+    "ModHarvestableBehaviour": {
                                 "Audio" : "",
                                 "Minutes" : 2,
                                 "YieldCounts" : [15,15],

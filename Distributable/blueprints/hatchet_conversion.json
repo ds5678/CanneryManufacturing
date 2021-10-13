@@ -1,5 +1,5 @@
 {
-    "@type": "ModComponentAPI.ModBlueprint",
+    "Name": "HatchetConversion",
     "RequiredGear": ["GEAR_HatchetImprovised","GEAR_ScrapMetal"],
     "RequiredGearUnits": [1,1],
     "KeroseneLitersRequired": 0,

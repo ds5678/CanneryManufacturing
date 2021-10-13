@@ -1,5 +1,5 @@
 {
-    "@type": "ModComponentAPI.ModBlueprint",
+    "Name": "KnifeConversion",
     "RequiredGear": ["GEAR_KnifeImprovised","GEAR_ScrapMetal"],
     "RequiredGearUnits": [1,1],
     "KeroseneLitersRequired": 0,

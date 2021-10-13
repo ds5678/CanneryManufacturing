@@ -1,5 +1,5 @@
 {
-    "@type": "ModComponentAPI.ModBlueprint",
+    "Name": "EfficientArrowshafts",
     "RequiredGear": ["GEAR_BirchSaplingDried"],
     "RequiredGearUnits": [1],
     "KeroseneLitersRequired": 0,

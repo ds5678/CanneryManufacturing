@@ -1,5 +1,5 @@
 {
-    "@type": "ModComponentAPI.ModBlueprint",
+    "Name": "FlareAmmoFromGunPowder",
     "RequiredGear": [],
     "RequiredGearUnits": [],
     "KeroseneLitersRequired": 0,

@@ -77,10 +77,5 @@
     <Compile Include="src\Patches.cs" />
     <Compile Include="src\SpawnProbabilities.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\README.md" />
-    <None Include="..\LICENSE" />
-    <None Include="..\.gitignore" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

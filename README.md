@@ -41,15 +41,7 @@ If you send me your translations, I'll update and add them to the mod so that mo
 
 ## Installation
 
-1. If you haven't done so already, install MelonLoader by downloading and running [MelonLoader.Installer.exe](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe).
-2. Download the latest version of `CanneryManufacturing.dll` and `CanneryManufacturing.modcomponent` from the [releases page](https://github.com/ds5678/CanneryManufacturing/releases).
-3. Download the latest version of `ModComponent.dll` from the [releases page](https://github.com/ds5678/ModComponent/releases).
-4. Download the latest version of `ModSettings.dll` from its [release page](https://github.com/zeobviouslyfakeacc/ModSettings/releases).
-5. Move `ModComponent.dll` and `ModSettings.dll` into the Mods folder in your TLD install directory.
-6. Run The Long Dark once. It should generate a subfolder called `ModComponentZips` in your mods folder.
-7. Move `CanneryManufacturing.dll` into your mods folder
-8. Move `CanneryManufacturing.modcomponent` into the `ModComponentZips` folder.
-
-## Known Issues
-
-If a player has enough gunpowder to make one flare shell, they can make an infinite amount. This bug does not originate from the mod, but instead from the base game. In the base game, if a player has enough gunpowder for one rifle/revolver cartridge, then they are only limited by their shell casings and bullets.
+* If you haven't done so already, install MelonLoader by downloading and running [MelonLoader.Installer.exe](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe)
+* Install the latest version of [ModComponent](https://github.com/ds5678/ModComponent) and its dependencies.
+* Download the latest version of `CanneryManufacturing.dll` and `CanneryManufacturing.modcomponent` from the [releases page](https://github.com/ds5678/CanneryManufacturing/releases).
+* Move `CanneryManufacturing.dll` and `CanneryManufacturing.modcomponent` into your mods folder

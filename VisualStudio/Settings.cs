@@ -4,7 +4,7 @@ namespace CanneryManufacturing
 {
 	internal class Settings : JsonModSettings
 	{
-		public static Settings instance = new Settings();
+		public static Settings Instance { get; } = new Settings();
 
 		[Section("Gameplay Settings")]
 		[Name("Gunpowder Crafting Location")]

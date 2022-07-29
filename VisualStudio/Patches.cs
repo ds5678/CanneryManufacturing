@@ -1,4 +1,6 @@
-﻿using HarmonyLib;
+﻿extern alias Hinterland;
+using HarmonyLib;
+using Hinterland;
 using ModComponent.Utils;
 using UnityEngine;
 
@@ -12,7 +14,7 @@ namespace CanneryManufacturing
 		{
 			internal static void Postfix(BlueprintItem bpi)
 			{
-				if (bpi?.m_CraftedResult?.name == "GEAR_GunpowderCan")
+				if (bpi.m_CraftedResult?.name == "GEAR_GunpowderCan")
 				{
 					switch (Settings.instance.gunpowderLocationIndex)
 					{
@@ -41,7 +43,7 @@ namespace CanneryManufacturing
 			private const string SCRAP_METAL_NAME = "GEAR_ScrapMetal";
 			internal static void Postfix(GearItem __instance)
 			{
-				if (NameUtils.NormalizeName(__instance?.name) == "GEAR_Crampons")
+				if (NameUtils.NormalizeName(__instance.name) == "GEAR_Crampons")
 				{
 					__instance.m_Millable = ComponentUtils.GetOrCreateComponent<Millable>(__instance.gameObject);
 
@@ -54,7 +56,7 @@ namespace CanneryManufacturing
 					__instance.m_Millable.m_RestoreRequiredGearUnits = new int[] { 4 };
 					__instance.m_Millable.m_Skill = SkillType.None;
 				}
-				if (NameUtils.NormalizeName(__instance?.name) == "GEAR_Flaregun")
+				if (NameUtils.NormalizeName(__instance.name) == "GEAR_Flaregun")
 				{
 					__instance.m_Millable = ComponentUtils.GetOrCreateComponent<Millable>(__instance.gameObject);
 

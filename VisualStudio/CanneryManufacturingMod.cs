@@ -1,13 +1,12 @@
 ﻿using MelonLoader;
 
-namespace CanneryManufacturing
+namespace CanneryManufacturing;
+
+internal class CanneryManufacturingMod : MelonMod
 {
-	internal class CanneryManufacturingMod : MelonMod
+	public override void OnApplicationStart()
 	{
-		public override void OnApplicationStart()
-		{
-			SpawnProbabilities.AddToModComponent();
-			Settings.Instance.AddToModSettings("Cannery Manufacturing");
-		}
+		SpawnProbabilities.AddToModComponent();
+		Settings.Instance.AddToModSettings("Cannery Manufacturing");
 	}
 }

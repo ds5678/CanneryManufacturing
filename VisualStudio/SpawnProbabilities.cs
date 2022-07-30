@@ -1,5 +1,4 @@
 ﻿using GearSpawner;
-using System;
 
 namespace CanneryManufacturing
 {
@@ -7,7 +6,7 @@ namespace CanneryManufacturing
 	{
 		internal static void AddToModComponent()
 		{
-			SpawnTagManager.AddToTaggedFunctions("CanneryManufacturing", new Func<DifficultyLevel, FirearmAvailability, GearSpawnInfo, float>(GetProbability));
+			SpawnTagManager.AddFunction("CanneryManufacturing", GetProbability);
 		}
 		
 		private static float GetProbability(DifficultyLevel difficultyLevel, FirearmAvailability firearmAvailability, GearSpawnInfo gearSpawnInfo)
